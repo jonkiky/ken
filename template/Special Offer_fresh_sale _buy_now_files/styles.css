@@ -1,0 +1,485 @@
+/*
+Description: Countdown Landing Page
+Author: Rapid Crush, Inc.
+Author URI: http://rapidcrush.com/
+Copyright 2016
+Version: 1.0.0
+*/
+
+/* reset by bootstrap */
+
+body {
+    font: 400 18px sans-serif;
+    line-height: 36px;
+    background: url(../img/bg-square.png);
+    color: #4a5c67;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #222;
+    margin-bottom: 26px;
+    font-family: arial;
+}
+
+/* define some colors and text formatting overrides */
+
+.blue { color: #008af6; }
+
+.center { text-align: center; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+input, textarea, keygen, select, button {
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+
+/* main content container */
+
+.main-content {
+    background: #fff;
+    margin-top: 106px;
+    padding: 0 4px 45px;
+    width: 90%;
+    max-width: 1180px;
+    box-shadow: 1px 1px 9px -3px #444;
+}
+
+.main-content.landing-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* main headline */
+
+.main-content h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 24px 30px;
+}
+
+.main-content h1.blue {
+    background: #008af6;
+    color: #fff;
+    width: 90%;
+    margin: 36px auto;
+}
+
+.main-content.landing-content h1 {
+    width: 100%;
+    margin: 0 0 80px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+
+/* secondary text/subheading */
+
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+    font-weight: bold;
+    padding: 24px 0;
+}
+.main-content h2 {
+    font-size: 24px;
+    text-align: center;
+    clear: both;
+}
+
+.main-content h4.expiring {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+
+.main-content h3:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.main-content h4 {
+    padding: 18px 0 0;
+}
+
+/* content images */
+
+.main-content img {
+    max-width: 100%;
+}
+
+/* content text and offer details */
+
+.main-content .price-holder {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-content .price-label {
+    color: #a5a7a9;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.main-content .price-amount {
+    font-size: 46px;
+}
+
+.main-content .offer-counter {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    max-width: 90%;
+}
+
+.main-content .offer-counter .meter {
+    background: #d5dce2;
+    border-radius: 4px;
+    max-width: 504px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.main-content .offer-counter .meter .filled {
+    background: #008af6;
+    width: 82%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.main-content .offer-counter p {
+    font-size: 24px;
+    width: 100%;
+}
+
+/* Buy Now pages */
+
+.couponcode {
+    color: #222;
+}
+
+.couponcode.with-bg {
+    background: url(../img/couponhighlight.jpg) top center no-repeat;
+}
+
+.couponcode h1 {
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: bold;
+}
+
+.couponcode h2 {
+    padding-top: 20px;
+}
+
+span.coupon-red {
+    color: #990000;
+}
+
+img.img-left,
+img.img-right {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.main-content .timer-holder {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.main-content .timer-holder p {
+    width: 100%;
+}
+
+/* form and submit button */
+
+form#download-form {
+    clear: both;
+}
+
+section.landing-content form#download-form {
+    padding-top: 65px;
+}
+
+a.submit-btn {
+    display: block;
+    background-color: rgba(23, 156, 0, 1);
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 48px;
+    padding: 36px 30px 30px;
+    border: none;
+    border-top: none;
+    box-shadow: inset 0 -7px 0px rgba(0, 104, 0, 1);
+    border-radius: 4px;
+}
+
+a.submit-btn:hover {
+    opacity: .9;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+button.submit-btn {
+    display: block;
+    background-color: rgba(23, 156, 0, 1);
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 48px;
+    padding: 36px 30px 30px;
+    border: none;
+    border-top: none;
+    box-shadow: inset 0 -7px 0px rgba(0, 104, 0, 1);
+    border-radius: 4px;
+}
+
+button.submit-btn:hover {
+    opacity: .9;
+}
+
+
+/* footer section */
+
+.site-footer {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 60px 15px 110px;
+}
+
+.site-footer small {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: #4a5c67;
+}
+
+.site-footer a:hover {
+    color: #7e909b;
+}
+
+/* Modal dialog */
+
+.modal-header,
+.modal-body {
+    padding: 30px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header .close {
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.modal-body input {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    color: #5A5A5A;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    background: none repeat scroll 0% 0% #E1E1E1;
+    border: 1pt solid transparent;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    -webkit-box-shadow: inset 0 0 4px #ccc;
+    -moz-box-shadow: inset 0 0 4px #ccc;
+    box-shadow: inset 0 0 4px #ccc;
+}
+
+.modal-body button.submit-btn {
+    font-size: 28px;
+    padding: 18px 24px;
+}
+
+
+.modal-body button.submit-btn:hover {
+    color: #fff;
+}
+
+/* @media queries */
+
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+
+    .main-content h1 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    button.submit-btn {
+        max-width: 626px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    section.landing-content button.submit-btn {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .modal-dialog {
+        width: 730px;
+    }
+
+}
+
+@media only screen and (min-width : 992px) {
+
+    .main-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main-content.landing-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* main two-column containers for slider and offer description */
+
+    .main-content > .row > .col-md-12 > .col-md-6 {
+        padding-right: 70px;
+    }
+
+    .main-content.landing-content > .row > .col-md-12 > .col-md-6 {
+        padding-left: 150px;
+    }
+
+    .main-content > .row > .col-md-12 > .col-md-6.right {
+        padding-left: 62px;
+    }
+
+    /* price listing and timer columns within offer description container */
+
+    .main-content > .row > .col-md-12 > .col-md-6 > .col-md-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-content p {
+        width: 96%;
+    }
+
+    .main-content.expired-with-upcoming-offer-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-content .price-holder {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .main-content.landing-content h3.center {
+        width: 88%;
+    }
+
+    img.img-left {
+        float: left;
+        margin: 0 30px 30px 0;
+    }
+
+    img.add-to-cart,
+    img.img-right {
+        float: right;
+        margin: 0 0 30px 30px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .main-content {
+        max-width: 1180px;
+    }
+
+}
+
+/* REDESIGN - BLUE THEME */
+
+div#Container_jbeeb_18 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_14 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_10 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_6 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+/* LINE 355 CHANGE */
+.pr_exp_date {
+    border: none;
+}
+
+.countdown {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.main-content h2 {
+    clear: none;
+}
+
+.main-content.buy-now-content img {
+    max-width: 80%;
+}
+
+@media only screen and (min-width : 768px) {
+    .main-content.buy-now-content img {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .main-content.buy-now-content img {
+        max-width: 400px;
+    }
+}
+
+p {
+    padding: 0 10px;
+}
+
+.main-content h4 {
+    padding: 18px 10px 0;
+}

@@ -1,0 +1,97 @@
+[----------- campaign's delete  query-----------]
+delete from campaign   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+[----------- campaign's insert  query-----------]
+insert into campaign (name,url_slug,redirect_url,is_redirect,create_time,user_id) value("@name","@urlslug","@redirecturl","@isredirect","@createtime","@userid");
+{"database":"coupon2","token":"7897aasdfasdf2312312","name":"name","urlslug":"urlslug","redirecturl":"redirecturl","isredirect":"isredirect","createtime":"createtime","userid":"userid"}
+[----------- campaign's update  query-----------]
+update campaign set  name="@name", url_slug="@urlslug", redirect_url="@redirecturl", is_redirect="@isredirect", create_time="@createtime", user_id="@userid" where id=@id,;
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1,"name":"name","urlslug":"urlslug","redirecturl":"redirecturl","isredirect":"isredirect","createtime":"createtime","userid":"userid"}
+[----------- campaign's select  all  query-----------]
+select * from campaign 
+[----------- campaign's select  by id  query-----------]
+select * from campaign   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+
+
+
+
+
+[----------- campaign's delete  query-----------]
+delete from campaign   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+[----------- campaign's insert  query-----------]
+insert into campaign (name,url_slug,redirect_url,is_redirect,create_time,user_id) value("@name","@urlslug","@redirecturl","@isredirect","@createtime","@userid");
+{"database":"coupon2","token":"7897aasdfasdf2312312","name":"name","urlslug":"urlslug","redirecturl":"redirecturl","isredirect":"isredirect","createtime":"createtime","userid":"userid"}
+[----------- campaign's update  query-----------]
+update campaign set  name="@name", url_slug="@urlslug", redirect_url="@redirecturl", is_redirect="@isredirect", create_time="@createtime", user_id="@userid" where id=@id,;
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1,"name":"name","urlslug":"urlslug","redirecturl":"redirecturl","isredirect":"isredirect","createtime":"createtime","userid":"userid"}
+[----------- campaign's select  all  query-----------]
+select * from campaign 
+[----------- campaign's select  by id  query-----------]
+select * from campaign   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+
+
+
+[----------- offer's delete  query-----------]
+delete from offer   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+[----------- offer's insert  query-----------]
+insert into offer (name,status,template_id,is_ever_green,start_date,end_date,daily_coupon_limited,market_place,sale_price,normal_price,product_name,brand,email,is_signup,benefit1,landing_analytics_code,benefit2,thank_you_analytics_code,seller_id,product_asin,canonical_url,keywords,url_rotation,is_super_nova_url,super_noval_url_keyword,deal_club,deal_club_url,campaign_id) value("@name","@status",@templateid,"@isevergreen","@startdate","@enddate",@dailycouponlimited,"@marketplace",@saleprice,@normalprice,"@productname","@brand","@email","@issignup","@benefit1","@landinganalyticscode","@benefit2","@thankyouanalyticscode","@sellerid","@productasin","@canonicalurl","@keywords","@urlrotation","@issupernovaurl","@supernovalurlkeyword","@dealclub","@dealcluburl",@campaignid);
+{"database":"coupon2","token":"7897aasdfasdf2312312","name":"name","status":"status","templateid":1,"isevergreen":"isevergreen","startdate":"startdate","enddate":"enddate","dailycouponlimited":1,"marketplace":"marketplace","saleprice":1,"normalprice":1,"productname":"productname","brand":"brand","email":"email","issignup":"issignup","benefit1":"benefit1","landinganalyticscode":"landinganalyticscode","benefit2":"benefit2","thankyouanalyticscode":"thankyouanalyticscode","sellerid":"sellerid","productasin":"productasin","canonicalurl":"canonicalurl","keywords":"keywords","urlrotation":"urlrotation","issupernovaurl":"issupernovaurl","supernovalurlkeyword":"supernovalurlkeyword","dealclub":"dealclub","dealcluburl":"dealcluburl","campaignid":1}
+[----------- offer's update  query-----------]
+update offer set  name="@name", status="@status", template_id=@templateid, is_ever_green="@isevergreen", start_date="@startdate", end_date="@enddate", daily_coupon_limited=@dailycouponlimited, market_place="@marketplace", sale_price=@saleprice, normal_price=@normalprice, product_name="@productname", brand="@brand", email="@email", is_signup="@issignup", benefit1="@benefit1", landing_analytics_code="@landinganalyticscode", benefit2="@benefit2", thank_you_analytics_code="@thankyouanalyticscode", seller_id="@sellerid", product_asin="@productasin", canonical_url="@canonicalurl", keywords="@keywords", url_rotation="@urlrotation", is_super_nova_url="@issupernovaurl", super_noval_url_keyword="@supernovalurlkeyword", deal_club="@dealclub", deal_club_url="@dealcluburl", campaign_id=@campaignid where id=@id,;
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1,"name":"name","status":"status","templateid":1,"isevergreen":"isevergreen","startdate":"startdate","enddate":"enddate","dailycouponlimited":1,"marketplace":"marketplace","saleprice":1,"normalprice":1,"productname":"productname","brand":"brand","email":"email","issignup":"issignup","benefit1":"benefit1","landinganalyticscode":"landinganalyticscode","benefit2":"benefit2","thankyouanalyticscode":"thankyouanalyticscode","sellerid":"sellerid","productasin":"productasin","canonicalurl":"canonicalurl","keywords":"keywords","urlrotation":"urlrotation","issupernovaurl":"issupernovaurl","supernovalurlkeyword":"supernovalurlkeyword","dealclub":"dealclub","dealcluburl":"dealcluburl","campaignid":1}
+[----------- offer's select  all  query-----------]
+select * from offer 
+[----------- offer's select  by id  query-----------]
+select * from offer   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+
+
+
+
+
+[----------- template's delete  query-----------]
+delete from template   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+[----------- template's insert  query-----------]
+insert into template (title) value("@title");
+{"database":"coupon2","token":"7897aasdfasdf2312312","title":"title"}
+[----------- template's update  query-----------]
+update template set  title="@title" where id=@id,;
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1,"title":"title"}
+[----------- template's select  all  query-----------]
+select * from template 
+[----------- template's select  by id  query-----------]
+select * from template   where id=@id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","id":1}
+
+
+
+[----------- user's delete  query-----------]
+delete from user   where Id=@Id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","Id":1}
+[----------- user's insert  query-----------]
+insert into user (username,password,email,status,token) value("@username","@password","@email",@status,"@token");
+{"database":"coupon2","token":"7897aasdfasdf2312312","username":"username","password":"password","email":"email","status":1,"token":"token"}
+[----------- user's update  query-----------]
+update user set  username="@username", password="@password", email="@email", status=@status, token="@token" where Id=@Id,;
+{"database":"coupon2","token":"7897aasdfasdf2312312","Id":1,"username":"username","password":"password","email":"email","status":1,"token":"token"}
+[----------- user's select  all  query-----------]
+select * from user 
+[----------- user's select  by id  query-----------]
+select * from user   where Id=@Id,
+{"database":"coupon2","token":"7897aasdfasdf2312312","Id":1}
+
+
+
+
+
+
+
+
+
+
+

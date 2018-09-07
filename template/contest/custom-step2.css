@@ -1,0 +1,43 @@
+/* custom stylesheet */
+
+/* REDESIGN - BLUE THEME */
+
+div#Container_jbeeb_18 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: 1px solid #d4bb57;
+}
+
+div#Container_jbeeb_14 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: 1px solid #d4bb57;
+}
+
+div#Container_jbeeb_10 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: 1px solid #d4bb57;
+}
+
+div#Container_jbeeb_6 {
+    background: url(../js/images/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: 1px solid #d4bb57;
+}
+
+/* LINE 355 CHANGE */
+.pr_exp_date {
+    border: none;
+}
+
+.countdown {
+    position: relative;
+    margin: 35px auto;
+    width: 226px;
+}
+

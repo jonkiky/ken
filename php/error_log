@@ -1,0 +1,63 @@
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 97
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 98
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 103
+[06-Jun-2018 03:22:30 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 35
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 97
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 98
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 103
+[06-Jun-2018 03:22:34 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 35
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jonkiky'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 97
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 98
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 103
+[06-Jun-2018 03:23:03 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 35
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'qwe_ken'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'qwe_ken'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 97
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 98
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 103
+[06-Jun-2018 03:25:27 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 35
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'qwe_ken'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'qwe_ken'@'ip-107-180-2-251.ip.secureserver.net' (using password: YES) in /home/h6b86mg0uzo5/public_html/php/api.php on line 24
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 97
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 98
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 103
+[06-Jun-2018 03:25:40 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/h6b86mg0uzo5/public_html/php/api.php on line 35
+[07-Jun-2018 01:58:02 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 01:58:28 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 01:58:39 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 02:00:28 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 02:01:02 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 04:37:46 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 05:05:20 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 05:11:24 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[07-Jun-2018 05:25:26 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[13-Jun-2018 04:29:54 UTC] PHP Deprecated:  mktime(): You should be using the time() function instead in /home/h6b86mg0uzo5/public_html/php/api.php on line 147
+[23-Jul-2018 04:46:16 UTC] PHP Notice:  Undefined index: action in /home/h6b86mg0uzo5/public_html/php/index.php on line 80
+[23-Jul-2018 04:46:16 UTC] PHP Notice:  Undefined index: action in /home/h6b86mg0uzo5/public_html/php/index.php on line 443
+[23-Jul-2018 05:05:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php/index.php on line 271
+[23-Jul-2018 05:05:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php/index.php on line 271
+[23-Jul-2018 05:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php/index.php on line 271
+[23-Jul-2018 05:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php/index.php on line 271
+[26-Jul-2018 03:48:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'ip-107-180-2-251.ip.secureserver.net' is not allowed to connect to this MySQL server in /home/h6b86mg0uzo5/public_html/php/api.php on line 24

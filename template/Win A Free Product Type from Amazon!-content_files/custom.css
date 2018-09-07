@@ -1,0 +1,42 @@
+/* custom stylesheet */
+
+/* REDESIGN - BLUE THEME */
+
+div#Container_jbeeb_18 {
+    background: none !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: none;
+}
+
+div#Container_jbeeb_14 {
+    background: none !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: none;
+}
+
+div#Container_jbeeb_10 {
+    background: none !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: none;
+}
+
+div#Container_jbeeb_6 {
+    background: none !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+    border: none;
+}
+
+/* LINE 355 CHANGE */
+.pr_exp_date {
+    border: none;
+}
+
+.countdown {
+    position: relative;
+    margin: 6px auto;
+    width: 226px;
+}

@@ -1,0 +1,17 @@
+[23-Jul-2018 05:26:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php2/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php2/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php2/index.php on line 271
+[23-Jul-2018 05:27:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php2/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php2/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php2/index.php on line 271
+[23-Jul-2018 05:28:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editOffer() in /home/h6b86mg0uzo5/public_html/php2/index.php:271
+Stack trace:
+#0 /home/h6b86mg0uzo5/public_html/php2/index.php(65): takeAction()
+#1 {main}
+  thrown in /home/h6b86mg0uzo5/public_html/php2/index.php on line 271
+[23-Jul-2018 05:29:32 UTC] PHP Notice:  Undefined index: offer_id in /home/h6b86mg0uzo5/public_html/php2/index.php on line 265
+[23-Jul-2018 05:29:51 UTC] PHP Notice:  Undefined index: offer_id in /home/h6b86mg0uzo5/public_html/php2/index.php on line 265

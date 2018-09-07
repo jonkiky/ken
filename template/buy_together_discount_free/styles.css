@@ -1,0 +1,693 @@
+/*
+Description: Frequently Bought Together Funnel
+Author: Rapid Crush, Inc.
+Author URI: http://rapidcrush.com/
+Copyright 2016
+Version: 1.0.0
+*/
+
+/* base styles */
+
+body {
+    /* reset by bootstrap */
+    background: url('../img/bg.png');
+    font-family: 'Source Sans Pro', Freesans, sans-serif;
+
+}
+
+p {
+    font: 400 24px/145% 'Source Sans Pro', Freesans, sans-serif;
+    padding-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+    color: #4a5c67;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/* define some colors and text formatting overrides */
+
+.blue { color: #008af6; }
+
+.red, .steps .red, .emphasis.red, h2.red { color: #ac1016; }
+
+.center { text-align: center; }
+
+img.center { display: block; margin: 0 auto; }
+
+.emphasis-four { font-weight: 700; text-decoration: underline; }
+
+.emphasis-three { font-weight: 400; font-style: italic; }
+
+.emphasis-two { font-weight: 700; font-style: italic; color: #000000; }
+
+.emphasis { font-weight: 700; color: #000000; }
+
+img.switch { display: none; }
+
+div.switch { padding-right: 0; }
+
+
+/* main container */
+
+.main {
+    background: #fff;
+    margin-top: 60px;
+    padding: 0 0 60px;
+    width: 90%;
+    max-width: 940px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+/* headlines */
+
+.headline {
+    width: 100%;
+    margin: 0;
+    border-color: rgb(130, 27, 27);
+    background-color: rgb(172, 16, 22);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.headline h1 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+    padding: 18px 30px;
+    color: #fff;
+}
+
+.thanks .headline h1 {
+    font-weight: 700;
+}
+
+.headline span {
+    font-weight: 700;
+}
+
+.headline.content {
+    width: 100%;
+    margin: 0 0 40px;
+    border-color: rgb(130, 27, 27);
+    background-color: rgb(172, 16, 22);    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.headline.content h2 {
+    font: 700 62px 'Source Sans Pro', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px 30px 10px;
+    color: #fff;
+}
+
+/* content containers */
+
+.content h2 {
+    font: 400 24px 'Source Sans Pro', Freesans, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    line-height: 125%;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.content h2 span {
+    font-weight: 700;
+}
+
+.content h3 {
+    font-size: 21px;
+}
+
+.content h3:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.content h4 {
+    padding: 18px 0 0;
+}
+
+.limited-section h3 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0 0 20px;
+}
+
+.flexin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 110px;
+}
+
+.img-bot-pad {
+    padding-bottom: 60px;
+}
+
+.content {
+    padding: 0 30px;
+}
+
+.content .cta {
+    border: 3px solid #717171;
+    margin: 0 0 60px;
+    padding: 30px 40px 40px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+.content .cta p {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    padding: 0 100px;
+    font-style: italic;
+}
+
+.content .cta h3 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #000;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.main-info p {
+    font-size: 21px;
+}
+
+.main-info h3 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+}
+
+.steps .row {
+    padding: 12px;
+}
+.row.intro {
+    padding-bottom: 20px;
+}
+
+.col-md-10.steps {
+    padding: 0 0 60px;
+}
+
+.steps .grey {
+    border: 1px solid #c5c5c5;
+    background-color: #f3f3f3;
+}
+
+.steps img.max {
+    max-width: 25px;
+    padding: 0 0 10px 0;
+}
+
+.steps p {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #000;
+    font-size: 18px;
+    padding: 0 16px 0 0;
+}
+
+.steps h3 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0 0;
+}
+
+.steps h4 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 27px;
+    padding: 0 0 20px;
+    font-style: italic;
+}
+
+.main img {
+    max-width: 100%;
+}
+
+img.top {
+    display: block;
+    margin: 20px auto;
+}
+
+hr {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid #b3b3b3;
+}
+
+p.tight {
+    padding: 0;
+    margin: 0;
+}
+
+.faq h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ac1016;
+}
+
+.faq h4 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.faq p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.thanks .coupon-box {
+    padding: 16px 22px 23px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.thanks .coupon-box p {
+    font-size: 24px;
+}
+
+.thanks .coupon-box h3 {
+    font-size: 32px;
+}
+
+p.only-left {
+    font-size: 27px;
+    padding-bottom: 0;
+}
+
+section.redeem-steps h2.red {
+    font-size: 32px;
+    padding: 0 55px 45px;
+    margin: 0;
+    color: #ac1016;
+}
+
+.step-box {
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: auto;
+}
+
+.step-box img {
+    margin-bottom: 20px;
+}
+
+.redeem-steps p {
+    font-size: 21px;
+    color: #333;
+}
+
+.redeem-steps p span {
+    color: #333;
+}
+
+.redeem-steps .emphasis { font: 700 21px/145% 'Source Sans Pro', Freesans, sans-serif; padding: 0; }
+
+.thanks .headline.order h2 {
+    font: 700 42px/145% 'Source Sans Pro', Freesans, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    margin: 0 0 40px;
+}
+
+img.featured {
+    margin-bottom: 20px;
+}
+
+.cta.use h2 {
+    font-weight: 400;
+    padding: 0 0 10px;
+    margin: 0
+}
+
+.cta h2 {
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+.thanks .content .cta h2 {
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+.cta.use h3 {
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+.cta.use input[name="coupon"] {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+p.remember {
+    font-size: 21px;
+    color: #313030;
+}
+
+.thanks p {
+    font: 400 18px/145% 'Source Sans Pro', Freesans, sans-serif;
+}
+
+.thanks .content h2 {
+    font: 700 48px/100% 'Source Sans Pro', Freesans, sans-serif;
+    padding-bottom: 20px;
+}
+
+/* forms and buttons */
+
+input[name="coupon"] {
+    margin-bottom: 16px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #6A6A6A;
+}
+
+.btn-warning {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 20px auto;
+    padding: 12px 32px;
+    border: none;
+    border-top: none;
+    border-radius: 4px;
+    background-color: rgb(243, 207, 50);
+    box-shadow: 0 0 3px 1px rgba(58, 58, 58, 0.33);
+    width: 90%;
+}
+
+.btn-warning:hover {
+    color: #000;
+    background-color: rgb(255, 215, 55);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.btn-warning.tight {
+    margin-top: 0;
+}
+
+.btn-warning.inline-btn {
+    font-size: 20px;
+    margin: 0 auto 20px auto;
+    padding: 15px 60px;
+}
+.btn-warning.inline-btn_2 {
+    font-size: 24px;
+    margin: 20px auto 0 auto;
+    padding: 15px 50px;
+}
+
+.above-btn {
+    padding: 0;
+    margin: 0;
+}
+
+.above-btn-red {
+    font-size: 24px !important;
+    font-style: italic;
+    margin: 20px auto 10px auto;
+}
+
+.col-md-12.check-out {
+    text-align: center;
+}
+
+.col-md-12.check-out h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.col-md-12.check-out a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.col-md-12.check-out h4 {
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* footer section */
+
+.site-footer a {
+    text-decoration: none;
+    color: #4a5c67;
+    padding: 0 10px;
+}
+
+.site-footer a:hover {
+    color: #7e909b;
+}
+
+.nav-copyright p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
+
+p.disclaimer {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 0 0 60px;
+    width: 90%;
+    max-width: 940px;
+}
+
+/* countdown timer styles, positioning */
+
+div#Container_jbeeb_18 {
+    background: url(../img/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_14 {
+    background: url(../img/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_10 {
+    background: url(../img/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+div#Container_jbeeb_6 {
+    background: url(../img/num-bg.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    border-radius: 3px !important;
+}
+
+.pr_exp_date {
+    border: none;
+}
+
+.countdown {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* modal */
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal h3 {
+    text-align: center;
+    letter-spacing:-1px;
+}
+
+.modal h4 {
+    text-align: center;
+    letter-spacing:-1px;
+}
+
+.modal input {
+    display: block;
+    width: 500px;
+    margin: 0;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #5a5a5a;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    background: #e1e1e1;
+    border: 1pt solid transparent;
+    -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 2px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.1);
+    -webkit-transition: border linear 0.2s,box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s,box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s,box-shadow linear 0.2s;
+    transition: border linear 0.2s,box-shadow linear 0.2s;
+}
+
+
+/* @media queries */
+
+@media only screen and (min-width : 480px) {
+    .headline h1 {
+        font-size: 42px;
+    }
+
+    .content h2 {
+        font-size: 32px;
+    }
+
+    img.switch { display: inherit; }
+
+    div.switch { padding-right: 15px; }
+}
+
+@media only screen and (min-width : 768px) {
+
+    .headline h1 {
+        font-size: 56px;
+    }
+
+    .content {
+        padding: 0 60px;
+    }
+
+
+    .content h2 {
+        font-size: 36px;
+    }
+
+    p.disclaimer {
+        font-size: 14px;
+        padding: 0 140px;
+    }
+
+    .limited-section h3 {
+        padding: 0 100px 20px;
+    }
+
+    .col-md-12.check-out h4 {
+        padding: 0 100px;
+    }
+
+    .btn-warning {
+        font-size: 32px;
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (min-width : 992px) {
+
+    .headline h1 {
+        font-size: 72px;
+    }
+
+    .content h2 {
+        font-size: 42px;
+    }
+
+    img.img-left {
+        float: left;
+        margin: 0 30px 30px 0;
+    }
+
+    img.add-to-cart,
+    img.img-right {
+        float: right;
+        margin: 0 0 30px 30px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .headline h1 {
+        font-size: 94px;
+    }
+
+    .content h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headline.content h2 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+
+    section.redeem-steps h2.red {
+        font-size: 32px;
+        padding: 0 10px 38px;
+        margin: 0;
+    }
+
+    .thanks .content h2 {
+        font-size: 38px;
+    }
+
+    .nav-copyright {
+        text-align: center;
+    }
+    .nav-copyright p {
+        text-align: center;
+    }
+
+    button.btn-warning {
+        font-size: 24px;
+        padding: 12px 20px;
+    }
+
+    .content .cta p {
+        padding: 0 5px;
+    }
+
+}

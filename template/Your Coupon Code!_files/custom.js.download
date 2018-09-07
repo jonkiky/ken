@@ -1,0 +1,23 @@
+/*
+  *
+  * this helps, in combination of some css (.countdown), center the timer.
+  * we're grabbing the sizes of the individual boxes, adding them and using that as the div width.
+  * days are optional - if set to hours (rangeHi : "hours"), equals 0.
+  *
+ *
+*/
+
+$(document).ready(function() {
+
+    var optional = document.getElementById("TextBox_jbeeb_21");
+
+    var div1 = document.getElementById("TextBox_jbeeb_9").offsetWidth;
+    var div2 = document.getElementById("TextBox_jbeeb_13").offsetWidth;
+    var div3 = document.getElementById("TextBox_jbeeb_17").offsetWidth;
+    var div4 = optional ? document.getElementById("TextBox_jbeeb_21").offsetWidth : 0;
+
+    var total = div1 + div2 + div3 + div4;
+
+    $(".countdown").width( total );
+
+});
